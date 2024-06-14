@@ -61,39 +61,39 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="text-left my-10 py-16 px-10 bg-[#fbebc4] font-serif">
-        <div className="flex items-center my-5">
-          <h1 className="w-1/2 m-auto text-6xl">Best Sellers</h1>
-          <h2 className="w-1/2 m-auto text-2xl">
+      <section className="text-left lg:my-10 py-8 lg:py-16 px-2 lg:px-10 bg-[#fbebc4] font-serif">
+        <div className="lg:flex  items-center lg:my-5">
+          <h1 className="lg:w-1/2 m-auto text-3xl lg:text-6xl pb-4">Best Sellers</h1>
+          <h2 className="lg:w-1/2 m-auto lg:text-2xl">
             When quality is eco-friendly. <br /> Explore our top picks.
           </h2>
         </div>
-        <div className="flex items-center py-5">
-          <div className="item-1 p-2">
-            <img src={sample4} alt="sample" className="w-full" />
-            <p>Bamboo Cutlery Set</p>
+        <div className="flex flex-wrap justify-between items-center py-5">
+          <div className="item-1 p-1 lg:p-2 w-44 lg:w-1/4">
+            <img src={sample4} alt="sample" className="w-full pt-4" />
+            <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
-          <div className="item-2 p-2">
-            <img src={sample4} alt="sample" className="w-full" />
-            <p>Bamboo Cutlery Set</p>
+          <div className="item-2 p-1 lg:p-2 w-44 lg:w-1/4">
+            <img src={sample4} alt="sample" className="w-full pt-4" />
+            <p  className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
-          <div className="item-3 p-2">
-            <img src={sample4} alt="sample" className="w-full" />
-            <p>Bamboo Cutlery Set</p>
+          <div className="item-3 p-1 lg:p-2 w-44 lg:w-1/4">
+            <img src={sample4} alt="sample" className="w-full pt-4" />
+            <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
-          <div className="item-4 p-2">
-            <img src={sample4} alt="sample" className="w-full" />
-            <p>Bamboo Cutlery Set</p>
+          <div className="item-4 p-1 lg:p-2 w-44 lg:w-1/4">
+            <img src={sample4} alt="sample" className="w-full pt-4" />
+            <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
         </div>
       </section>
 
       <section className="lg:w-4/5 m-auto text-center my-10">
-        <h1 className="text-xl my-8">
+        <h1 className="text-xl my-8 px-4">
           Prints That Speak Volumes: An Exhibition of Our High-Quality Printing
           Services
         </h1>
@@ -103,7 +103,7 @@ export default function Home() {
               key={index}
               src={sample}
               alt="sample"
-              className="w-full sm:w-[50%] lg:w-[33.33%] p-1"
+              className="w-full lg:w-[33.33%] p-4 lg:p-1"
             />
           ))}
         </div>
