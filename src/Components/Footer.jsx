@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex-col lg:flex lg:flex-row justify-between text-center items-baseline">
-        <h1 className="text-6xl lg:text-9xl">PrintFusion</h1>
+        <h1 className="text-5xl lg:text-9xl">PrintFusion</h1>
         <p>
           &copy; {new Date().getFullYear()} Printing Company. All rights
           reserved.
