@@ -63,12 +63,14 @@ export default function Home() {
 
       <section className="text-left lg:my-10 py-8 lg:py-16 px-2 lg:px-10 bg-[#fbebc4] font-serif">
         <div className="lg:flex  items-center lg:my-5">
-          <h1 className="lg:w-1/2 m-auto text-3xl lg:text-6xl pb-4">Best Sellers</h1>
+          <h1 className="lg:w-1/2 m-auto text-3xl lg:text-6xl pb-4">
+            Best Sellers
+          </h1>
           <h2 className="lg:w-1/2 m-auto lg:text-2xl">
             When quality is eco-friendly. <br /> Explore our top picks.
           </h2>
         </div>
-        <div className="flex flex-wrap items-center py-5">
+        <div className="grid grid-cols-2 lg:flex gap-4 py-5">
           <div className="item-1 p-1 lg:p-2 w-44 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
             <p className="pt-2">Bamboo Cutlery Set</p>
@@ -76,7 +78,7 @@ export default function Home() {
           </div>
           <div className="item-2 p-1 lg:p-2 w-44 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
-            <p  className="pt-2">Bamboo Cutlery Set</p>
+            <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
           <div className="item-3 p-1 lg:p-2 w-44 lg:w-1/4">
