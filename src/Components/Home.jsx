@@ -70,7 +70,7 @@ export default function Home() {
             When quality is eco-friendly. <br /> Explore our top picks.
           </h2>
         </div>
-        <div className="grid grid-cols-2 lg:flex gap-4 py-5">
+        <div className="grid grid-cols-2 lg:flex gap-2 py-5">
           <div className="item-1 p-1 lg:p-2 w-44 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
             <p className="pt-2">Bamboo Cutlery Set</p>
