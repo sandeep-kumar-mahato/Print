@@ -71,22 +71,22 @@ export default function Home() {
           </h2>
         </div>
         <div className="grid grid-cols-2 lg:flex py-5">
-          <div className="item-1 p-1 lg:p-2 w-44 lg:w-1/4">
+          <div className="item-1 p-1 lg:p-2 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
             <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
-          <div className="item-2 p-1 lg:p-2 w-44 lg:w-1/4">
+          <div className="item-2 p-1 lg:p-2 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
             <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
-          <div className="item-3 p-1 lg:p-2 w-44 lg:w-1/4">
+          <div className="item-3 p-1 lg:p-2 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
             <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
           </div>
-          <div className="item-4 p-1 lg:p-2 w-44 lg:w-1/4">
+          <div className="item-4 p-1 lg:p-2 lg:w-1/4">
             <img src={sample4} alt="sample" className="w-full pt-4" />
             <p className="pt-2">Bamboo Cutlery Set</p>
             <p>$12.00</p>
